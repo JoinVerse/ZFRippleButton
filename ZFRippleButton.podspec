@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Amornchai Kanokpullwad" => "amornchai.zoon@gmail.com" }
   s.source           = { :git => "https://github.com/zoonooz/ZFRippleButton.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '14.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/*.swift'
