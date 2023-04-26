@@ -132,7 +132,7 @@ open class ZFRippleButton: UIButton {
             
             let groupAnim = CAAnimationGroup()
             groupAnim.duration = 0.7
-            groupAnim.fillMode = kCAFillModeForwards
+            groupAnim.fillMode = CAMediaTimingFillMode.forwards
             groupAnim.isRemovedOnCompletion = false
             groupAnim.animations = [shadowAnim, opacityAnim]
             
@@ -174,7 +174,7 @@ open class ZFRippleButton: UIButton {
                 
                 let groupAnim = CAAnimationGroup()
                 groupAnim.duration = 0.7
-                groupAnim.fillMode = kCAFillModeForwards
+                groupAnim.fillMode = CAMediaTimingFillMode.forwards
                 groupAnim.isRemovedOnCompletion = false
                 groupAnim.animations = [shadowAnim, opacityAnim]
                 
